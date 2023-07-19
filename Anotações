@@ -1,0 +1,23 @@
+========================= Anotações Sobre o curso inicial sobre o Java Script =========================
+
+1. Para que Serve o Java Script?
+
+   O JS em conjunto com o CSS e HTML, são responsáveis para criar uma interface para o cliente utilizar para o seu bel prazer em sites WEB.
+   O HTML é focado na parte de inserir informações, como vídeo, imagens, sons, etc.
+   O CSS é responsável por deixar a página WEB mais bonito.
+   O JS é responsável por fazer as configuações, sendo a parte do programador.
+
+2. Como o JS se comporta no navegagor?
+  O JS é responsável na parte de auxílio na barra de pesquisa, recomendando os nomes enquanto digita algo.
+  O JS influência na pesquisa de imagens, pois desabilitando o JS em inspecionar, você ver que não carrega imagens auto, e sim por página.
+  O JS no Youtube, é uma principal ferramenta na navegação do site, pois desabilitando o JS, nada funciona no site.
+  Outros sites, se for em inspecionar, na parte de DevTools, desabilitando, você visualiza como o JS influência no site.
+
+3. Brincando com o site do Google:
+    No console do Inspecionar, voce pode digitar comandos e após dar um enter, como:
+            alert('Oi Google')                        -- O google vai produzir um alerta com a mensagem que você digitou.
+            document.body.style.background = 'blue'   -- A cor de fundo do goole ficará toda azul.
+            document.queryselector('nome_img').style.filter = 'grayscale(100%)'   -- Deixará a imagem que inseriu em nome_img com o tom cinza.
+            document.querySelector('nome_img').style.visibility = 'hidden'      -- Irá esconder a imagem que você inseriu em nome_img.
+
+    OBS: Isso não faz com que mude o google do servidor, somente a cópia que o servidor mandou para o cliente. Dando um F5, volta ao normal.
