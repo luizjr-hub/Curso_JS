@@ -21,3 +21,25 @@
             document.querySelector('nome_img').style.visibility = 'hidden'      -- Irá esconder a imagem que você inseriu em nome_img.
 
     OBS: Isso não faz com que mude o google do servidor, somente a cópia que o servidor mandou para o cliente. Dando um F5, volta ao normal.
+
+4. Onde funciona o JS?
+    O JS por padrão funcina dentro de um navegador de internet, porém existe a ferramenta NODE.JS, que faz com que o JS rode fora de um navegador.
+
+5. O que é o ECMAScript?
+   O ECMAScript é a versão padronizada do JS, ela surgiu em 1997 com a versão 1.0. Teve a versão 2.0 em 1998, 3.0 em 1999, mais popular é a ES5
+   que iniciou em 2009, teve em 2015 a ES6 e a partir dai, teve o nome da versão usada em anos. 
+   Nesse curso, terá base a ES2018.
+
+6. Ferramentas (Frameworks) em conjunto com o JS:
+   JQuery - Criado pela galera da Mozilla que auxiliava no uso de interatividade do JS.
+   Angular - Criado e mantido pelo google. Facilita o uso de aplicações WEB.
+   React - Biblioteca do Facebook. Parecido com Angular, porém tem mais interatividade.
+   VUE - Criado por um ex-programador do Google em 2014.
+   Electron - Usado para interface gráfica. Mantido no GitHub.
+   Ionic - SDK usado para criar aplicações em Mobile.
+   Cordova - Criado a partir do Ionic. Está na mão da Apache.
+
+7. Programas feito em Electron:
+   VScode; Discord; Slack; Whatsapp DESKTOP.
+   
+   
