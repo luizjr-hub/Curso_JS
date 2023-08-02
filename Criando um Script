@@ -1,0 +1,47 @@
+============================ Scripts em JavaScript ======================
+
+1. Criando o primeiro Script:
+    1.1 Para criar um script, é necessário criar um arquivo index.html.
+    1.2 Dentro do arquivo, digita o código <html> (Se for no VSCODE, aparecerá a opção do HTML5).
+
+            Exemplo:
+                        <!DOCTYPE html>
+                        <html lang="pt-br">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                            <title>Meu primeiro programa</title>
+                            <style>
+                                body { background-color: aquamarine;  }
+                            </style>
+                        </head>
+                        <body>
+                            <h1>Olá, Mundo! Aqui é um título.</h1>
+                            <p>Aqui é onde tem um parágrafo.</p>
+                        </body>
+                        </html>
+
+            Conceitos:
+                 tag <head>  : É onde fica toda a condiguração da página em que está criando.
+                 tag <style> : Parte do CSS para o embelezamento da página.
+                 tag <body>  : Parte onde fica tudo visível na página.
+                 tag <h1>    : Localizada dentro do "<body>". Tag para digitar o título da página.
+                 tag <p>     : Localizada dentro do "<body>". Tag para criar um parágrafo.
+                 tag <script>: Localizada dentro do "<body>". Local onde você de fato faz o código em Java Script.
+
+    2. Fazendo um script.
+        2.1 Dentro do "<body>", após todos as tags que for usadas, cria a tag "<script>" e dentro dela é feito o código em Java Script.
+                  Exemplo: 
+                            <body>
+                                  <h1>Olá, Mundo! Aqui é um título.</h1>
+                                  <p>Aqui é onde tem um parágrafo.</p>
+                                  <script>
+                                    window.alert('Minha primeira mensagem!');
+                                  </script>
+                            </body>
+
+                  Comandos JS:
+                        window.alert()   - Comando utilizado para aparecer uma mensagem de alerta inicial em uma página. (Não é necessário por ";").
+                        window.confirm() - Comando para apertar Ok ou cancelar numa página.
+                        window.prompt()  - Comando feito para escrever algo na janela criada.
