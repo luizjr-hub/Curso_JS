@@ -4,4 +4,31 @@ Nesse módulo, será ensinado como: Armazenar os dados, utilização dos tipos p
 
 1. Variável - Espaços existentes dentro da memória de um computador, onde pode ser armazenado os tipos de dados de uma linguagem.
 
-    Em Java Script, pode inserir 3 tipos de 
+    Em Java Script, pode inserir 3 tipos de aspas para delimitar os dados do tipo string:
+                    s1 = `Luiz`
+                    s2 = "Luiz"
+                    s3 = 'Luiz'
+1.1 Tipos de dados:
+    number - Para o Java Script, ele trata os números int e float como 'number'.
+            Infinity - é um number específico.
+            NaN (not in number) - é um number específico.
+    boolean - Para o Java Script, os valores verdadeiros e falsos, são chamados de boolean.
+    null - é um tipo objeto.
+    object - é um tipo objeto.
+            array -
+    function - é um tipo função.
+
+
+1.2 Regras de Identificador:
+    Tem que começar com letras, cifrão ou underline;
+    Não pode conter espaços;
+    Não pode começar com números;
+    É possível por acentos e números;
+    Não pode usar palavras reservadas;
+    Variáveis maiúsculas e minúsculas fazem a diferença;
+    Ponham nomes coerentes;
+
+            OBS: Para criar uma variável, pode usar o nome 'var' ou 'let' dentro do Node.JS ou do VSCODE.
+                 No Node.JS ou no Node.Js dentro do VSCODE, o Ctrl + L limpa o terminal.
+
+1.3 Tipo de data (TYPEOF) - Serve para mostrar o tipo da variável. Ex: typeof x
