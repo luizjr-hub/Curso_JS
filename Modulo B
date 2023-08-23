@@ -32,3 +32,27 @@ Nesse módulo, será ensinado como: Armazenar os dados, utilização dos tipos p
                  No Node.JS ou no Node.Js dentro do VSCODE, o Ctrl + L limpa o terminal.
 
 1.3 Tipo de data (TYPEOF) - Serve para mostrar o tipo da variável. Ex: typeof x
+
+1.4 Convertendo 'String' para 'Number'
+
+O comando: window.prompt('lore') - Recebe automaticamente o tipo String. Para converter em Number, precisa ser feito:
+            Number.parseInt() - Converte para inteiro
+            Number.parseFloat() - Converte para float
+            Number() - O JavaScript utiliza da forma que achar melhor.
+
+            O resultado é: var n = Number(window.prompt('O número é')) - Está convertendo para number
+
+1.5 Template String - O Java Script para retornar uma informação na tela com as variáveis de forma mais simples, criou o 'Template String'.
+                    Para isso é utilizado a crase, ex: `O aluno $`{nome} tirou a nota ${nota}`
+                                            Resultado:  O aluno Luiz tirou a nota 10
+
+1.6 Formatando Strings
+        s.length         - Quantos caracteres uma string tem.
+        s.toUpperCase()  - Tudo para maiúsculo.
+        s.toLowerCase()  - Tudo para minúsculo.
+1.7 Formatando Numbers
+        n.toFixed()        - Insere números depois da vírgula
+        n.replace('.',',') - Ele altera o conteudo do primeiro string ('.') para o segundo string (',').
+        n.toLocaleString('pt-BR' {Style: 'currency', currency: 'BRL'}) - Mostra o valor n em formato de moeda do real
+
+
